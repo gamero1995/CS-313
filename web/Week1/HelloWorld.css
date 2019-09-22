@@ -1,4 +1,7 @@
-body {background-color: gainsboro}
+body {
+    background-color: gainsboro;
+    align-content: center;
+}
 
 div{
     padding-top: 50px;

@@ -1,12 +1,21 @@
+h1{
+    color:green;
+    font-size:40px;
+}
+
 body {
-    background-color: gainsboro;}
+    background-color: gainsboro;
+    text-align: center;
+    }
 
 div{
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
+
 img{
+    display:block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
 }

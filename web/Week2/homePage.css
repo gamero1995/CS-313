@@ -1,0 +1,59 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(145, 155, 161);
+    color: white;
+}
+body {
+    background-color: rgb(236, 248, 248);
+    text-align: center;
+}
+h1{
+    background-color: rgb(144, 224, 235, 0.5);
+    color: black;
+    text-align: center;
+}
+#aboutMe{
+    background-color: rgb(144, 224, 235, 0.5);
+    color: black;
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    height: 100%;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

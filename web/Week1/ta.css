@@ -1,0 +1,24 @@
+#a {
+    font-size: 18px;
+    background-color: #9999ff;
+    
+}
+#a:hover {
+    font-weight: bold;
+}
+#b {
+    font-size: 20px;
+    background-color: #ffcc99;
+    
+}
+#b:hover {
+    font-weight: bold;
+}
+#c {
+    font-size: 22px;
+    background-color: #aaff99;
+    
+}
+#c:hover {
+    font-weight: bold;
+}

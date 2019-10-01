@@ -14,9 +14,6 @@
         <div class="topnav">
             <a class="active" href="homePage.html">Home</a>
             <a href="assignment.html">Assignments</a>
-            <?php
-                echo date("h:i:sa");
-            ?>
         </div>
         <h1>Jose Gamero's Home Page</h1>
     </header>
@@ -46,6 +43,8 @@
               <img src="https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/roomplus/14-14385_nfl_premask_Seattle_Seahawks_Stacked_Logotype_2015_logo_6628.jpg" alt="Seahawks" style="width:100%" >
             </div>
           </div>
-    
+          <?php
+                echo date("h:i:sa");
+            ?>
 </body>
 </html>

@@ -10,6 +10,6 @@
     <header>
         <h1>COMING SOON!</h1>
     </header>
-    <a href="homePage.html" target="_blank" style="color:black"> <b>Click HERE to return to Home Page</b></a>
+    <a href="homePage.php" target="_blank" style="color:black"> <b>Click HERE to return to Home Page</b></a>
 </body>
 </html>

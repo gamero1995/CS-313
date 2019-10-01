@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="topnav">
-            <a class="active" href="homePage.html">Home</a>
-            <a href="assignment.html">Assignments</a>
+            <a class="active" href="homePage.php">Home</a>
+            <a href="assignment.php">Assignments</a>
         </div>
         <h1>Jose Gamero's Home Page</h1>
     </header>

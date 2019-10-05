@@ -18,14 +18,11 @@ session_start()
 <body>
     <h1 id="titleCart">Check Out</h1>
     <br>
-    <a href="browse.php">Home</a>
-    <a href="viewCart.php">Cart</a>
-    <br>
     <br>
     <br>
     <form action="confirm.php" method="post">
-            <input type="text" placeholder="First Name" id="first" name="fname">
-            <input type="text" placeholder="Last Name" id="last" name="lname">
+            <h1>Shipping Address</h1>
+            <input type="text" placeholder="First Name" id="first" name="fname"><input type="text" placeholder="Last Name" id="last" name="lname">
             <input type="text" placeholder="Street" id="strt" name="street">            
             <input type="text" placeholder="city" id="cit" name="city">
             <input type="text" placeholder="State" id="stat" name="state">

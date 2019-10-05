@@ -43,7 +43,7 @@ session_start()
             echo "</div>";       
             echo "<input type='hidden' name='product_index' value='$i'>";
             echo "<input type='submit' value='Remove'>";   
-            echo "<hr width='50%'>";              
+            echo "<hr width='25%'>";              
             echo "</form>";
             echo "</div>";
         }        

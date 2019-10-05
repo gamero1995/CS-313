@@ -26,30 +26,30 @@ if (!isset($_SESSION['cart'])) {
           <form action="addingCart.php" method="post">
         <div>
             <img src="Iron Man.jpg" alt="Iron Man" height="200px" width="200px">
-            <p>Iron Man Hotwheel's</p>
+            <p>Iron Man Hotwheels</p>
             <p>Price: $50.00</p>
             <input type="hidden" value="50" name="price">
-                    <input type="hidden" value="IronMan" name="product">                    
+                    <input type="hidden" value="Iron Man Hot Wheels" name="product">                    
                     <input type="submit" value="Add To Cart">
         </div>
     </form>
     <form class="cart_form" action="addingCart.php" method="post">
         <div>
             <img src="dragon.jpg" alt="Dragon" height="200px" width="200px">
-            <p>Ultimate Dragon Hotwheel's</p>
+            <p>Ultimate Dragon Hot Wheels</p>
             <p>Price: $60.00</p>
             <input type="hidden" value="60" name="price">
-                    <input type="hidden" value="Dragon" name="product">                    
+                    <input type="hidden" value="Ultimate Dragon Hot Wheels" name="product">                    
                     <input type="submit" value="Add To Cart">
         </div>
     </form>
     <form class="cart_form" action="addingCart.php" method="post">
         <div>
             <img src="Hersheys.jpg" alt="Hersheys" height="200px" width="200px">
-            <p>Hershey Hotwheel's</p>
+            <p>Hershey Hot Wheels</p>
             <p>Price: $350.00</p>
             <input type="hidden" value="350" name="price">
-                    <input type="hidden" value="Hershey" name="product">                    
+                    <input type="hidden" value="Hershey Hot Wheel's" name="product">                    
                     <input type="submit" value="Add To Cart">
         </div>  
     </form>

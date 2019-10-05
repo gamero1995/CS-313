@@ -31,12 +31,14 @@ session_start()
             echo "<p>Price: $" . $_SESSION['cart'][$i][1] . "</p>";
             echo "</div>";
             echo "<div class='item2'>";
-            if ($_SESSION['cart'][$i][0] == "Iron Man"){
-                echo "<img class='pokemon_cart' src='$ironMan' alt='" . $_SESSION['cart'][$i][0] . "'>";
-            } elseif ($_SESSION['cart'][$i][0] == "Dragon") {
-                echo "<img class='pokemon_cart' src='$dragon' alt='" . $_SESSION['cart'][$i][0] . "'>";
-            } else {
-                echo "<img class='pokemon_cart' src='$Hersheys' alt='" . $_SESSION['cart'][$i][0] . "'>";
+            if ($_SESSION['cart'][$i][0] == "Iron Man Hot Wheels"){
+                echo "<img src='$ironMan' alt='" . $_SESSION['cart'][$i][0] . "'>";
+            } 
+            elseif ($_SESSION['cart'][$i][0] == "Ultimate Dragon Hot Wheels") {
+                echo "<img src='$dragon' alt='" . $_SESSION['cart'][$i][0] . "'>";
+            } 
+            else {
+                echo "<img src='$Hersheys' alt='" . $_SESSION['cart'][$i][0] . "'>";
             };            
             echo "</div>";            
             echo "<input type='hidden' name='product_index' value='$i'>";
@@ -45,3 +47,8 @@ session_start()
             echo "</div>";
         }        
     ?>
+    <div id="check">
+        <a id="check_button" href="checkout.php">Checkout</a>
+    </div>
+    </body>
+</html>

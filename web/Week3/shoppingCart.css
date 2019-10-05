@@ -34,7 +34,7 @@ body{
     padding: 20px;
     font-size: 30px;
   }
-  a {
+  #button {
   background-color: red;
   box-shadow: 0 5px 0 darkred;
   color: white;

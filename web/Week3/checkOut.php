@@ -28,11 +28,11 @@ session_start()
             <input type="text" placeholder="State" id="stat" name="state">
             <input type="text" placeholder="Zip Code" id="code" name="zip">
             <div>                
-                <input class="submit_checkout" type="submit" value="Complete Purchase">                               
+                <input id="buttons" class="submit_checkout" type="submit" value="Complete Purchase">                               
             </div>                       
         </form>
         <div>
-            <input class="cancel_checkout" type="button" value="return To Cart" onclick="redirect()">
+            <input id="buttons" class="cancel_checkout" type="button" value="return To Cart" onclick="redirect()">
         </div>
 
             

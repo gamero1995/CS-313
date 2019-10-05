@@ -17,8 +17,8 @@ if (!isset($_SESSION['cart'])) {
 <body>
     <h1 id="title">Hot Wheels Garage</h1>
     <br>
-    <a href="browse.php">Home</a>
-    <a href="viewCart.php">Cart</a>
+    <a id="buttons" href="browse.php">Home</a>
+    <a id="buttons" href="viewCart.php">Cart</a>
     <br>
     <br>
     <br>

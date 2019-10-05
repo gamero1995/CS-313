@@ -25,20 +25,20 @@ session_start()
         foreach ($_SESSION['cart'] as $i => $value) {
             echo "<div>";
             echo "<form class='cart_form' action='remove.php' method='post'>";
-            echo "<div class='flex-container'>";
+            echo "<div>";
             echo "<div class='description'>";
             echo "<h4>" . $_SESSION['cart'][$i][0] . "</h4>";
             echo "<p>Price: $" . $_SESSION['cart'][$i][1] . "</p>";
             echo "</div>";
             echo "<div class='product'>";
             if ($_SESSION['cart'][$i][0] == "Iron Man Hot Wheels"){
-                echo "<img src='$ironMan' alt='" . $_SESSION['cart'][$i][0] . "'>";
+                echo "<img src='$ironMan' 'height='100px' width='100px' alt='" . $_SESSION['cart'][$i][0] . "'>";
             } 
             elseif ($_SESSION['cart'][$i][0] == "Ultimate Dragon Hot Wheels") {
-                echo "<img src='$Dragon' alt='" . $_SESSION['cart'][$i][0] . "'>";
+                echo "<img src='$Dragon' height='100px' width='100px' alt='" . $_SESSION['cart'][$i][0] . "'>";
             } 
             else {
-                echo "<img src='$Hersheys' alt='" . $_SESSION['cart'][$i][0] . "'>";
+                echo "<img src='$Hersheys' height='100px' width='100px' alt='" . $_SESSION['cart'][$i][0] . "'>";
             };            
             echo "</div>";            
             echo "<input type='hidden' name='product_index' value='$i'>";

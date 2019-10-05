@@ -13,8 +13,8 @@ session_start()
 <body>
     <h1 id="titleCart">Cart</h1>
     <br>
-    <a href="browse.php">Home</a>
-    <a href="viewCart.php">Cart</a>
+    <a id="button" href="browse.php">Home</a>
+    <a id="button" href="viewCart.php">Cart</a>
     <br>
     <br>
     <br>
@@ -50,7 +50,7 @@ session_start()
     <br>
     <br>
     <div id="check">
-        <a id="check_button" href="checkOut.php">Checkout</a>
+        <a id="button" href="checkOut.php">Checkout</a>
     </div>
     </body>
 </html>

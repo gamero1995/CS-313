@@ -50,7 +50,7 @@ session_start()
     <br>
     <br>
     <div id="check">
-        <a id="check_button" href="checkout.php">Checkout</a>
+        <a id="check_button" href="checkOut.php">Checkout</a>
     </div>
     </body>
 </html>

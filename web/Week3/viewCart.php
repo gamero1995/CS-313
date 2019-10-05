@@ -19,9 +19,9 @@ session_start()
     <br>
     <br>
     <?php 
-        $ironMan="Iron Man.jpg";
-        $Dragon="dragon.jpg";
-        $Hersheys="Hersheys.jpg";
+        $ironMan= "Iron Man.jpg";
+        $Dragon= "dragon.jpg";
+        $Hersheys= "Hersheys.jpg";
         foreach ($_SESSION['cart'] as $i => $value) {
             echo "<div>";
             echo "<form class='cart_form' action='remove.php' method='post'>";
@@ -35,7 +35,7 @@ session_start()
                 echo "<img src='$ironMan' alt='" . $_SESSION['cart'][$i][0] . "'>";
             } 
             elseif ($_SESSION['cart'][$i][0] == "Ultimate Dragon Hot Wheels") {
-                echo "<img src='$dragon' alt='" . $_SESSION['cart'][$i][0] . "'>";
+                echo "<img src='$Dragon' alt='" . $_SESSION['cart'][$i][0] . "'>";
             } 
             else {
                 echo "<img src='$Hersheys' alt='" . $_SESSION['cart'][$i][0] . "'>";

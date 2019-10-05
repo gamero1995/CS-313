@@ -1,6 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(235, 226, 226);
+}
+
+#title{
+    margin-right: 500px;
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 100px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1;
+
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .flex-container > form > div {
     /* background-color: #f1f1f1; */
@@ -8,3 +24,12 @@
     padding: 20px;
     font-size: 30px;
   }
+  a {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}

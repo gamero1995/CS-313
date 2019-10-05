@@ -11,7 +11,7 @@
     <h1>Hot Wheels Garage</h1>
     <br>
       <div class="flex-container">
-          <form>
+          <form action="addingCart.php" method="post">
         <div>
             <img src="Iron Man.jpg" alt="Iron Man" height="200px" width="200px">
             <p>Iron Man Hotwheel's</p>
@@ -21,7 +21,7 @@
                     <input type="submit" value="Add To Cart">
         </div>
     </form>
-    <form>
+    <form class="cart_form" action="addingCart.php" method="post">
         <div>
             <img src="dragon.jpg" alt="Dragon" height="200px" width="200px">
             <p>Ultimate Dragon Hotwheel's</p>
@@ -31,7 +31,7 @@
                     <input type="submit" value="Add To Cart">
         </div>
     </form>
-    <form>
+    <form class="cart_form" action="addingCart.php" method="post">
         <div>
             <img src="Hersheys.jpg" alt="Hersheys" height="200px" width="200px">
             <p>Hershey Hotwheel's</p>

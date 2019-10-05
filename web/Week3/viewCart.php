@@ -40,7 +40,8 @@ session_start()
             else {
                 echo "<img src='$Hersheys' height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'>";
             };            
-            echo "</div>";            
+            echo "</div>"; 
+            echo "<hr>"           
             echo "<input type='hidden' name='product_index' value='$i'>";
             echo "<input type='submit' value='Remove'>";            
             echo "</form>";

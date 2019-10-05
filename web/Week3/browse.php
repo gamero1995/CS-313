@@ -10,6 +10,8 @@
 <body>
     <h1>Hot Wheels Garage</h1>
     <br>
+    <a href="browse.php">Home</a>
+    <a href="viewCart.php">Cart</a>
       <div class="flex-container">
           <form action="addingCart.php" method="post">
         <div>

@@ -26,37 +26,43 @@ session_start()
         <tr>
             <th>Item</th>
             <th>Name</th>
-            <th>Price</th> 
+            <th>Price</th>
+            <th></th>
         </tr>
         <?php
         $ironMan= "Iron Man.jpg";
         $Dragon= "dragon.jpg";
         $Hersheys= "Hersheys.jpg";
+        $total = 0;
         foreach ($_SESSION['cart'] as $i => $value) {
             if ($_SESSION['cart'][$i][0] == "Iron Man Hot Wheels"){
                 echo "<tr>";
                 echo "<td><img src='$ironMan' 'height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'></td>";
-                echo "<td><p>$". $_SESSION['cart'][$i][0] . "</p></td>";
+                echo "<td><p>". $_SESSION['cart'][$i][0] . "</p></td>";
                 echo "<td><p>$". $_SESSION['cart'][$i][1] . "</p></td>";
                 echo "<tr>";
+                $total += $_SESSION['cart'][$i][1];
             } 
             elseif ($_SESSION['cart'][$i][0] == "Ultimate Dragon Hot Wheels") {
                 echo "<tr>";
                 echo "<td><img src='$Dragon' 'height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'></td>";
-                echo "<td><p>$". $_SESSION['cart'][$i][0] . "</p></td>";
+                echo "<td><p>". $_SESSION['cart'][$i][0] . "</p></td>";
                 echo "<td><p>$". $_SESSION['cart'][$i][1] . "</p></td>";
                 echo "<tr>";
+                $total += $_SESSION['cart'][$i][1];
             } 
             else {
                 echo "<img src='$Hersheys' height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'>";
                 echo "<tr>";
                 echo "<td><img src='$Dragon' 'height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'></td>";
-                echo "<td><p>$". $_SESSION['cart'][$i][0] . "</p></td>";
+                echo "<td><p>". $_SESSION['cart'][$i][0] . "</p></td>";
                 echo "<td><p>$". $_SESSION['cart'][$i][1] . "</p></td>";
                 echo "<tr>";
+                $total += $_SESSION['cart'][$i][1];
             }
             
         }   
+        echo "<h4>Total Price: $" . $total . "</h4>";
         ?>     
     </table>
 

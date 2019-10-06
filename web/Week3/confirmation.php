@@ -21,8 +21,10 @@ session_start()
             echo $_POST["city"].", ".$_POST["state"]." ".$_POST["zip"]."<br>";
             ?>
     </div>
+    <br>
+    <br>
     <div id="table">
-        <table>
+        <table style="width:100%">
         <tr>
             <th>Item</th>
             <th>Name</th>

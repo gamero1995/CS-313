@@ -23,7 +23,7 @@ session_start()
         $Dragon= "dragon.jpg";
         $Hersheys= "Hersheys.jpg";
         foreach ($_SESSION['cart'] as $i => $value) {
-            echo "<div>";
+            echo "<div id='shipping'>";
             echo "<form class='cart_form' action='remove.php' method='post'>";
             echo "<div>";
             echo "<div class='description'>";

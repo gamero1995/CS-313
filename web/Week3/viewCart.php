@@ -23,7 +23,7 @@ session_start()
         $Dragon= "dragon.jpg";
         $Hersheys= "Hersheys.jpg";
         foreach ($_SESSION['cart'] as $i => $value) {
-            echo "<div id='shipping'>";
+            echo "<div id='items'>";
             echo "<form class='cart_form' action='remove.php' method='post'>";
             echo "<div>";
             echo "<div class='description'>";
@@ -42,8 +42,7 @@ session_start()
             };            
             echo "</div>";       
             echo "<input type='hidden' name='product_index' value='$i'>";
-            echo "<input type='submit' value='Remove'>";   
-            echo "<hr width='25%'>";              
+            echo "<input type='submit' value='Remove'>";               
             echo "</form>";
             echo "</div>";
             echo "</div>";
@@ -51,10 +50,8 @@ session_start()
     ?>
     <br>
     <br>
-    <br>
-    <br>
     <div id="check">
-        <a id="button" href="checkOut.php">Checkout</a>
+        <a id="button" href="checkOut.php">Checkout</a><br>
     </div>
     </body>
 </html>

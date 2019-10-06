@@ -46,6 +46,7 @@ session_start()
             echo "<hr width='25%'>";              
             echo "</form>";
             echo "</div>";
+            echo "</div>";
         }        
     ?>
     <br>

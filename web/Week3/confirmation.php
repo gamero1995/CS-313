@@ -62,11 +62,14 @@ session_start()
             }
             
         }   
-        echo "<h4>Total Price: $" . $total . "</h4>";
         ?>     
     </table>
+    <?php
+    echo "<h4>Total Price: $" . $total . "</h4>";
+    ?>
 
 </div>
+
 
 </body>
 </html>

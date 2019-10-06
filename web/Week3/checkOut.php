@@ -24,7 +24,7 @@ session_start()
             <h1>Shipping Address</h1>
             <input type="text" style="height:40px;font-size:14pt;" placeholder="First Name" id="first" name="fname"><input type="text" style="height:40px;font-size:14pt;" placeholder="Last Name" id="last" name="lname"><br><br>
             <input type="text" style="width:430px;height:40px;font-size:14pt;" placeholder="Street" id="strt" name="street"><br>  <br>          
-            <input type="text" style="height:40px;font-size:14pt;" placeholder="City" id="city" name="City"><input type="text" style="height:40px;font-size:14pt;" placeholder="State" id="state" name="state"><br><br>
+            <input type="text" style="height:40px;font-size:14pt;" placeholder="City" id="city" name="city"><input type="text" style="height:40px;font-size:14pt;" placeholder="State" id="state" name="state"><br><br>
             <input type="text" style="width:70px;height:40px;font-size:14pt;" placeholder="Zip" id="code" name="zip">
             <br>
             <br>

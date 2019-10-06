@@ -65,7 +65,7 @@ session_start()
         ?>     
     </table>
     <?php
-    echo "<h4>Total Price: $" . $total . "</h4>";
+    echo "<h3>Total Price: $" . $total . "</h3>";
     ?>
 
 </div>

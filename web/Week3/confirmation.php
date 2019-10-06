@@ -16,9 +16,9 @@ session_start()
     <div>
         <h2>Shipping Address</h2>
         <?php 
-            echo $_POST["fname"]." ".$_POST["lname"]."<br>";
-            echo $_POST["street"]."<br>";
-            echo $_POST["city"].", ".$_POST["state"]." ".$_POST["zip"]."<br>";
+            echo htmlspecialchars($_POST["fname"])." ".htmlspecialchars($_POST["lname"])."<br>";
+            echo htmlspecialchars($_POST["street"])."<br>";
+            echo htmlspecialchars($_POST["city"]).", ".htmlspecialchars($_POST["state"])." ".htmlspecialchars($_POST["zip"])."<br>";
             ?>
     </div>
     <br>

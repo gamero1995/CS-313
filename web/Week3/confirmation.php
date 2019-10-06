@@ -55,7 +55,7 @@ session_start()
             else {
                 echo "<img src='$Hersheys' height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'>";
                 echo "<tr>";
-                echo "<td><img src='$Dragon' 'height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'></td>";
+                echo "<td><img src='$Hersheys' 'height='150px' width='150px' alt='" . $_SESSION['cart'][$i][0] . "'></td>";
                 echo "<td><p>". $_SESSION['cart'][$i][0] . "</p></td>";
                 echo "<td><p>$". $_SESSION['cart'][$i][1] . "</p></td>";
                 echo "<tr>";

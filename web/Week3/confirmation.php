@@ -27,7 +27,6 @@ session_start()
             <th>Item</th>
             <th>Name</th>
             <th>Price</th>
-            <th></th>
         </tr>
         <?php
         $ironMan= "Iron Man.jpg";

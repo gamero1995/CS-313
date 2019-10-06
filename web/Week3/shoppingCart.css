@@ -43,3 +43,7 @@ body{
   text-decoration: none;
   text-transform: uppercase;
 }
+#table{
+margin-left: auto;
+    margin-right: auto;
+}

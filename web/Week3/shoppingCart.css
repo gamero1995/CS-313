@@ -53,6 +53,13 @@ table, th, td {
     background-color: whitesmoke;
     border: 1px solid black;
   }
-.shipping{
+#shipping{
     background-color: whitesmoke;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#complete{
+    background-color: rgb(235, 226, 226);
+    
 }

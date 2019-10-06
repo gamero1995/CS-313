@@ -28,7 +28,7 @@ session_start()
             <input type="text" style="width:70px;height:40px;font-size:14pt;" placeholder="Zip" id="code" name="zip">
             <br>
             <br>
-            <div>                
+            <div id="complete">                
                 <input id="button" type="submit" value="Complete Purchase">                               
             </div>                       
         </form>

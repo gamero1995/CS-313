@@ -33,6 +33,7 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
 img{
     height: 800px;
     width: 1350px;
@@ -70,3 +71,9 @@ img{
 #slider-image-3:target ~ .image-container{
     left :-2700px;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

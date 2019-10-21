@@ -58,7 +58,7 @@
                     <li><a href="logIn.html">Login</a></li>
                   </ul>
     </div> -->
-    <!-- <br>
+    <br>
     <br>
     <div class="slide-container">
         <span id="slider-image-1"></span>
@@ -77,7 +77,7 @@
             <a href="#slider-image-3" class="slider-button"></a>
     </div>
     <br>
-    <br> -->
+    <br>
     <div>
        <h1>Services</h1>
        <div class="flex-container">

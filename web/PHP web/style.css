@@ -77,7 +77,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
   }
-  .flex-container > div {
+  .flex-container > a > div {
     background-color: whitesmoke;
     margin: 10px;
     padding: 20px;

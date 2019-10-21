@@ -1,3 +1,8 @@
+<?php
+    require "dbConnect.php";
+    $db = get_db();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +61,12 @@
     <div>
         <h1>Services</h1>
         <div class="flex-container"></div>
-        
+        <?php 
+        foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service ORDER BY id DESC') as $row)
+        {
+          echo '<div><h2>' . $row['type_service_title'].'</h2></div>';
+        }
+    ?> 
     </div>
     
 

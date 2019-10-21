@@ -24,6 +24,8 @@
                   </ul>
                 </div>
               </nav>
-        <p>Coming Soon</p>
+        <br>
+<br>
+<h1>Coming soon</h1>
 </body>
 </html>

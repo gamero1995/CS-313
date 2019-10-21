@@ -87,10 +87,10 @@
        <?php 
        foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service') as $row)
        {
-          echo '<div><h2>' . $row['type_service_title'] . '</h2></div>';
+          echo '<a href="' . $row['type_service_title'] . '.php"><div><h2>' . $row['type_service_title'] . '</h2></div>';
           
        }
-       echo 'hello'
+
        ?> 
        </div>
     </div>

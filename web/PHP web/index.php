@@ -39,14 +39,14 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
                   <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">YourStyle</a>
+                    <a class="navbar-brand" href="index.php">YourStyle</a>
                   </div>
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="aboutUs.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contactUs.html">Contact us</a></li>
-                    <li><a href="logIn.html">Login</a></li>
+                    <li><a href="aboutUs.php">About Us</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="contactUs.php">Contact us</a></li>
+                    <li><a href="logIn.php">Login</a></li>
                   </ul>
                 </div>
               </nav>

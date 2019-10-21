@@ -59,7 +59,7 @@
        <?php 
        foreach ($db->query('SELECT sevices_name, services_description, services_price, type_service_id FROM services WHERE services_id = 1') as $row)
        {
-          echo '<div><h2>' . $row['sevices_name'] . '</h2><br><p>' . $row['services_description'] . '</p><br><p><strong>Price:</strong>' . $row['services_price'] . '</p></div>';
+          echo '<div><h2>' . $row['sevices_name'] . '</h2><br><p>' . $row['services_description'] . '</p><br><p><strong>Price:</strong> $' . $row['services_price'] . '</p></div>';
           
        }
        ?> 

@@ -85,7 +85,7 @@
        <h1>Services</h1>
        <div class="flex-container">
        <?php 
-       foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service ORDER BY id DESC') as $row)
+       foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service') as $row)
        {
           echo '<div><h2>' . $row['type_service_title'] . '</h2></div>';
           

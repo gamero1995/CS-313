@@ -1,3 +1,30 @@
+<?php
+// require "../dbConnect.php";
+// $db = get_db();
+
+    try
+    {
+      $dbUrl = getenv('DATABASE_URL');
+    
+      $dbOpts = parse_url($dbUrl);
+    
+      $dbHost = $dbOpts["host"];
+      $dbPort = $dbOpts["port"];
+      $dbUser = $dbOpts["user"];
+      $dbPassword = $dbOpts["pass"];
+      $dbName = ltrim($dbOpts["path"],'/');
+    
+      $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+    
+      $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    }
+    catch (PDOException $ex)
+    {
+      echo 'Error!: ' . $ex->getMessage();
+      die();
+    }
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,5 +51,20 @@
                   </ul>
                 </div>
               </nav>
+<br>
+<br>
+<div>
+       <h1>Services</h1>
+       <div class="flex-container">
+       <?php 
+       foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service') as $row)
+       {
+          echo '<a href="' . $row['type_service_title'] . '.php"><div><h2>' . $row['type_service_title'] . '</h2></div>';
+          
+       }
+
+       ?> 
+       </div>
+    </div>
 </body>
 </html>

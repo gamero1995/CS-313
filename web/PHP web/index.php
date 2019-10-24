@@ -59,7 +59,7 @@
               </nav>
     <br>
     <br>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -84,8 +84,8 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-    <!-- <div class="slide-container">
+</div> -->
+    <div class="slide-container">
         <span id="slider-image-1"></span>
         <span id="slider-image-2"></span>
         <span id="slider-image-3"></span>
@@ -100,7 +100,7 @@
             <a href="#slider-image-1" class="slider-button"></a>
             <a href="#slider-image-2" class="slider-button"></a>
             <a href="#slider-image-3" class="slider-button"></a>
-    </div> -->
+    </div>
     <br>
     <br>
     <div>

@@ -53,17 +53,35 @@
                   </ul>
                 </div>
               </nav>
-    <!-- <div class="navbar">
-            <ul>
-                    <li><a href="aboutUs.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contactUs.html">Contact us</a></li>
-                    <li><a href="logIn.html">Login</a></li>
-                  </ul>
-    </div> -->
     <br>
     <br>
-    <div class="slide-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <!-- <div class="slide-container">
         <span id="slider-image-1"></span>
         <span id="slider-image-2"></span>
         <span id="slider-image-3"></span>
@@ -78,7 +96,7 @@
             <a href="#slider-image-1" class="slider-button"></a>
             <a href="#slider-image-2" class="slider-button"></a>
             <a href="#slider-image-3" class="slider-button"></a>
-    </div>
+    </div> -->
     <br>
     <br>
     <div>

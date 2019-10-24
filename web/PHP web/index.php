@@ -42,7 +42,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
-<body style="height:1200px">
+<body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
                   <div class="navbar-header">
@@ -57,6 +57,8 @@
                   </ul>
                 </div>
               </nav>
+    <br>
+    <br>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

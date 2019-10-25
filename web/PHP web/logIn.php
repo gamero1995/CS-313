@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- <link href="style.css" type="text/css" rel="stylesheet"> -->
     <title>Document</title>
 </head>
 <body class="text-center">

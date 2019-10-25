@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: center;
 }
-/* .slide-container{
+.slide-container{
     width: 1350px;
     height: 800px;
     margin-left: auto;
@@ -70,7 +70,7 @@ img{
 }
 #slider-image-3:target ~ .image-container{
     left :-2700px;
-} */
+}
 
 .flex-container {
     display: flex;

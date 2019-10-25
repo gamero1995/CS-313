@@ -9,7 +9,7 @@
     <!-- <link href="style.css" type="text/css" rel="stylesheet"> -->
     <title>Document</title>
 </head>
-<body class="text-center">
+<body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
                   <div class="navbar-header">

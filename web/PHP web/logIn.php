@@ -25,6 +25,8 @@
                 </div>
               </nav>
              
+              <br>
+<br>
     <form class="form-signin">
       <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
       <label for="inputEmail" class="sr-only">Email address</label>
@@ -40,8 +42,7 @@
       <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
     </form>
   </body>
-<br>
-<br>
+
 <h1>Coming soon</h1>
 </body>
 </html>

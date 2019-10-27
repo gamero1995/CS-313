@@ -27,7 +27,7 @@
              
               <br>
 <br>
-<form class="login" action="admin.php" method="post">
+<form class="login" action="admin.php" method="POST">
   <div class="container">
       <h2>Admin</h2>
     <label for="uname"><b>Username</b></label>

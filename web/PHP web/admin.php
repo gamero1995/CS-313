@@ -19,3 +19,4 @@ else{
         echo "<script>location.href='logIn.php'</script>";
     }
 }
+?>

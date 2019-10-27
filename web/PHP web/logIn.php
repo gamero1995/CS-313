@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <!-- <link href="style.css" type="text/css" rel="stylesheet"> -->
+    <link href="style.css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -27,30 +27,23 @@
              
               <br>
 <br>
-<div class="wrapper">
-    <form class="form-signin">       
-      <h2 class="form-signin-heading">Please login</h2>
-      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-      <label class="checkbox">
-        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
-      </label>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
-    </form>
+<form class="login" action="admin.php" method="post">
+  <div class="container">
+      <h2>Admin</h2>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
   </div>
-    <!-- <form class="form-signin">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
-    </form> -->
+
+  <div class="container">
+    <button type="button" class="cancelbtn">Cancel</button>
+  </div>
+</form>
+
+
 </body>
 </html>

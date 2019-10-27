@@ -1,7 +1,7 @@
 <?php
 
-$uname = "jose";
-$pwd = "isawesome";
+$uname = "admin";
+$pwd = "admin";
 
 session_start();
 

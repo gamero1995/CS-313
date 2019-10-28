@@ -73,8 +73,8 @@ try
         <br>
         <div>
 		<form action="insert.php" method="POST">
-                <label for="title">Title</label>
-                <input type="text" class="form-control" name="title" placeholder="Title for note">
+                <label for="title">Add Service Type</label>
+                <input type="text" class="form-control" name="type" placeholder="Type of Service">
                 <br>
 				<button type="submit" class="btn btn-primary">Add Service Type</button>
 			</form>

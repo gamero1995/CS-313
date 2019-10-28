@@ -1,5 +1,6 @@
 <?php
 $type = $_POST['type'];
+$id = $_POST['id'];
 try
     {
       $dbUrl = getenv('DATABASE_URL');
@@ -21,12 +22,13 @@ try
       echo 'Error!: ' . $ex->getMessage();
       die();
     }
-    
+
 try
 {
-   $query = 'INSERT INTO type_service(type_service_title) VALUES(:type)';
+   $query = 'INSERT INTO type_service(type_service_title, type_service_id) VALUES(:type, :id)';
    $statement = $db->prepare($query);
    $statement->bindValue(':type', $type);
+   $statement->bindValue(':id', $id);
    $statement->execute();
 }
 catch (Exception $ex)

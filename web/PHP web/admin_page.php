@@ -72,7 +72,7 @@ try
         </table>
         <br>
         <div class="insert_type">
-		<form action="insert.php" method="POST">
+		<form action="insert_type.php" method="POST">
                 <label for="title">Add Service Type</label>
                 <input type="text" class="form-control" name="type" placeholder="Type of Service">
                 <br>

@@ -57,8 +57,8 @@ try
     <br>
         <table class="types" width="400">
             <tr>
-                <th>Types of Service</th>
-                <th>ID</th>
+                <th style="text-align: center;" >Types of Service</th>
+                <th style="text-align: center;" >ID</th>
             </tr>
         <?php 
 

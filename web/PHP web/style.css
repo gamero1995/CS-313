@@ -163,6 +163,10 @@ table{
   margin-left: auto;
   margin-right: auto;
 }
+
 table, th, td{
   border: 1px solid black;
+}
+.insert_type{
+  width: 50%;
 }

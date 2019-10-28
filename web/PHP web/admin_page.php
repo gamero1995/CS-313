@@ -71,12 +71,12 @@ try
        ?> 
         </table>
         <br>
-        <div>
+        <div class="insert_type">
 		<form action="insert.php" method="POST">
                 <label for="title">Add Service Type</label>
                 <input type="text" class="form-control" name="type" placeholder="Type of Service">
                 <br>
-				<button type="submit" class="btn btn-primary">Add Service Type</button>
+				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
 		</div>
     

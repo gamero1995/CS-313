@@ -43,7 +43,7 @@ try
 
         foreach ($db->query('SELECT type_service_id, type_service_title FROM type_service') as $row)
        {
-          echo '<tr><td>' . $row['type_service_title'] . '.php"></td><td>' . $row['type_service_id'] . '</td></tr>';
+          echo '<tr><td><a href="edit' . $row['type_service_title'] . '.php">' . $row['type_service_title'] . '</td><td>' . $row['type_service_id'] . '</td></tr>';
           
        }
 

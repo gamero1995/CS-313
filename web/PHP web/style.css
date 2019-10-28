@@ -161,4 +161,6 @@ span.psw {
 
 table, th, td{
   border: 1px solid black;
+  align-content: center;
+  text-align: center;
 }

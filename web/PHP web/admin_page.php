@@ -55,7 +55,7 @@ try
     <br>
     <br>
     <br>
-        <table class="types" width="600">
+        <table class="types" width="400">
             <tr>
                 <th>Types of Service</th>
                 <th>ID</th>

@@ -56,7 +56,7 @@ try
     <br>
     <br>
     <div class="current_services">
-        <table>
+        <table class="types">
             <tr>
                 <th>Types of Service</th>
                 <th>ID</th>

@@ -151,7 +151,14 @@ span.psw {
 }
 .current_services{
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
   background-color: lightblue;
   width: 50%;
+}
+.types{
+  width: 500;
+}
+
+table, th, td{
+  border: 1px solid black;
 }

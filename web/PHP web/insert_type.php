@@ -39,7 +39,7 @@ catch (Exception $ex)
 
 $myfile = fopen("edit" . $type. ".php", "w") or die("Unable to open file!");
 
-header("Location: admin_page.php");
+header("Location: admin_page.php?typeID=$id");
 
 die(); // we always include a die after redirects. In this case, there would be no
        // harm if the user got the rest of the page, because there is nothing else

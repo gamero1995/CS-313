@@ -55,8 +55,7 @@ try
     <br>
     <br>
     <br>
-    <div class="current_services">
-        <table class="types">
+        <table class="types" width="600">
             <tr>
                 <th>Types of Service</th>
                 <th>ID</th>
@@ -71,9 +70,6 @@ try
 
        ?> 
         </table>
-      
-       
-       </div>
     <form action="">
 
     </form>

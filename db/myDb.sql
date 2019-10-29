@@ -38,10 +38,10 @@ INSERT INTO type_service (type_service_id, type_service_title) VALUES (4, 'Pedic
 INSERT INTO type_service (type_service_id, type_service_title) VALUES (5, 'Make Up');
 INSERT INTO type_service (type_service_id, type_service_title) VALUES (6, 'Facial');
 
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Short Hair', 'Basic Short Hair Haircut', 20, 1);
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Dye', 'Any Color Hair Dye', 20, 2);
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Manicure', 'One color with one design', 10, 3);
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Pedicure', 'One color with cleaing of toe nails', 15, 4);
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Make Up', 'Eye shadows and mascara', 25, 5);
-INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Facial', 'Pore cleaning with pickles on your eyes', 25,6);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (1,'Short Hair', 'Basic Short Hair Haircut', 20, 1);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (2,'Basic Dye', 'Any Color Hair Dye', 20, 2);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (3,'Basic Manicure', 'One color with one design', 10, 3);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (4,'Basic Pedicure', 'One color with cleaing of toe nails', 15, 4);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (5,'Basic Make Up', 'Eye shadows and mascara', 25, 5);
+INSERT INTO services (services_id, sevices_name, services_description, services_price, type_service_id) VALUES (6,'Basic Facial', 'Pore cleaning with pickles on your eyes', 25,6);
 

@@ -39,6 +39,8 @@ catch (Exception $ex)
 
 $myfile = fopen("edit" . $type. ".php", "w") or die("Unable to open file!");
 
+echo copy("editPedicure.php", "edit" . $type. ".php", "w"); 
+
 header("Location: admin_page.php?typeID=$id");
 
 die(); // we always include a die after redirects. In this case, there would be no

@@ -31,12 +31,12 @@ CREATE TABLE appointments
 );
 
 
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (1, 'Hair Cut');
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (2, 'Dye');
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (3, 'Manicure');
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (4, 'Pedicure');
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (5, 'Make Up');
-INSERT INTO type_service (type_service_id, type_service_title) VALUES (6, 'Facial');
+INSERT INTO type_service (type_service_title) VALUES ('Hair Cut');
+INSERT INTO type_service (type_service_title) VALUES ('Dye');
+INSERT INTO type_service (type_service_title) VALUES ('Manicure');
+INSERT INTO type_service (type_service_title) VALUES ('Pedicure');
+INSERT INTO type_service (type_service_title) VALUES ('Make Up');
+INSERT INTO type_service (type_service_title) VALUES ('Facial');
 
 INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Short Hair', 'Basic Short Hair Haircut', 20, 1);
 INSERT INTO services (sevices_name, services_description, services_price, type_service_id) VALUES ('Basic Dye', 'Any Color Hair Dye', 20, 2);

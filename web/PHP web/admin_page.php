@@ -89,6 +89,11 @@ try
 				<button type="submit" class="btn btn-primary">Remove</button>
 			</form>
     </div>
+    <br>
+    <br>
+    <form action="logOut.php" method="POST">
+				<button type="submit" class="btn btn-primary">Log Out</button>
+			</form>
     
 </body>
 </html>

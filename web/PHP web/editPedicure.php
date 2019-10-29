@@ -99,7 +99,7 @@ try
     </div>
     <br>
     <form>
-  <button type="submit" onclick="history.back()">Go back!</button>
+  <input class="back" type="button" value="Go back!" onclick="history.back()">
 </form>
     
 </body>

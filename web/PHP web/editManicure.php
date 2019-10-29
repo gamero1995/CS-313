@@ -62,13 +62,14 @@ try
                 <th style="text-align: center;" >Service Name</th>
                 <th style="text-align: center;" >Service Description</th>
                 <th style="text-align: center;" >Service Price</th>
+                <th style="text-align: center;" >ID</th>
             </tr>
         <?php 
         $id = $_GET['typeID'];
 
         foreach ($db->query('SELECT sevices_name, services_description, services_price, services_id FROM services WHERE type_service_id = ' . $id . '') as $row)
        {
-          echo '<tr><td>' . $row['sevices_name'] . '</td><td>' . $row['services_description'] . '</td><td>' . $row['services_price'] . '</td></tr>';
+          echo '<tr><td>' . $row['sevices_name'] . '</td><td>' . $row['services_description'] . '</td><td>' . $row['services_price'] . '</td><td>' . $row['services_id'] . '</td></tr>';
           
        }
 
@@ -85,6 +86,15 @@ try
                 <input type="text" class="form-control" name="service_price" placeholder="Price">
                 <input type="hidden" class="form-control" name="id" value="<?php echo $id ?>">
 				<button type="submit" class="btn btn-primary">Add</button>
+			</form>
+        </div>
+        <br>
+        <div class="insert_type">
+		<form action="remove_service.php" method="POST">
+                <label for="title">Remove Service</label>
+                <input type="text" class="form-control" name="id" placeholder="Id">
+                <br>
+				<button type="submit" class="btn btn-primary">Remove</button>
 			</form>
 		</div>
     

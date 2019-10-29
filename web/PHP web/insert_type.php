@@ -41,7 +41,7 @@ $myfile = fopen("edit" . $type. ".php", "w") or die("Unable to open file!");
 fopen("" . $type. ".php", "w") or die("Unable to open file!");
 
 echo copy("editPedicure.php", "edit" . $type. ".php"); 
-echo copy("Pedicure.php", "" . $type. ".php?type=$type"); 
+echo copy("Pedicure.php", "" . $type. ".php"); 
 
 
 header("Location: admin_page.php?typeID=$id");

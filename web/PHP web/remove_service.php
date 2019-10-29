@@ -1,5 +1,5 @@
 <?php
-$service = $_POST['service'];
+$id = $_POST['id'];
 
 try
     {
@@ -25,7 +25,7 @@ try
 
 try
 {
-    $query = 'DELETE FROM services WHERE sevices_name = ' . $service .'';
+    $query = 'DELETE FROM services WHERE services_id = ' . $id .'';
     $statement = $db->prepare($query);
     $statement->execute();
 }

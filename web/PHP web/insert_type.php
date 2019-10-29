@@ -39,7 +39,7 @@ catch (Exception $ex)
 
 $myfile = fopen("edit" . $type. ".php", "w") or die("Unable to open file!");
 
-echo copy("editPedicure.php", "edit" . $type. ".php", "w"); 
+echo copy("editPedicure.php", "edit" . $type. ".php"); 
 
 header("Location: admin_page.php?typeID=$id");
 

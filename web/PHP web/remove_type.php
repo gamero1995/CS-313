@@ -25,6 +25,10 @@ try
 
 try
 {
+   $query1 = 'DELETE FROM services WHERE type_service_id = '. $id . '';  
+   $statement1 = $db->prepare($query1);
+   $statement1->execute();
+   
    $query = 'DELETE FROM type_service WHERE type_service_id = ' . $id .'';
    $statement = $db->prepare($query);
    $statement->execute();

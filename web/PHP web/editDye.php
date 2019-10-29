@@ -76,11 +76,14 @@ try
         </table>
         <br>
         <div class="insert_type">
-		<form action="insert_type.php" method="POST">
-                <label for="title">Edit Service</label>
-                <input type="text" class="form-control" name="type" placeholder="Type of Service">
+		<form action="insert_service.php" method="POST">
+                <label for="title">Add Service</label>
+                <input type="text" class="form-control" name="service" placeholder="Service Name">
                 <br>
-                <input type="text" class="form-control" name="id" placeholder="ID Number">
+                <input type="text" class="form-control" name="service_description" placeholder="Service Description">
+                <br>
+                <input type="text" class="form-control" name="service_price" placeholder="Price">
+                <input type="hidden" class="form-control" name="service_price" value="<?php echo $id ?>">
 				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
 		</div>

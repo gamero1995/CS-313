@@ -54,7 +54,8 @@
 <br>
 <br>
 <div>
-       <h1>Pedicure</h1>
+       <h1><? $type = $_GET['type'];
+       echo $stype?></h1>
        <div class="flex-container">
        <?php 
        foreach ($db->query('SELECT sevices_name, services_description, services_price, type_service_id FROM services WHERE type_service_id = 4') as $row)

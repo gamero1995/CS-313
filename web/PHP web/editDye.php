@@ -69,7 +69,7 @@ try
 
         foreach ($db->query('SELECT sevices_name, services_description, services_price FROM services WHERE services_id = $id') as $row)
        {
-        //   echo '<tr><td><a href="edit' . $row['type_service_title'] . '.php">' . $row['type_service_title'] . '</td><td>' . $row['type_service_id'] . '</td></tr>';
+          echo '<tr><td>' . $row['sevices_name'] . '</td><td>' . $row['services_description'] . '</td><td>' . $row['services_price'] . '</td></tr>';
           
        }
 

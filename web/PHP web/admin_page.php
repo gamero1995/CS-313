@@ -76,7 +76,6 @@ try
                 <label for="title">Add Service Type</label>
                 <input type="text" class="form-control" name="type" placeholder="Type of Service">
                 <br>
-                <input type="text" class="form-control" name="id" placeholder="ID Number">
 				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
     </div>

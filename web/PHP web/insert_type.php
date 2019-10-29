@@ -25,10 +25,9 @@ try
 
 try
 {
-   $query = 'INSERT INTO type_service(type_service_title, type_service_id) VALUES(:type, :id)';
+   $query = 'INSERT INTO type_service(type_service_title) VALUES(:type)';
    $statement = $db->prepare($query);
    $statement->bindValue(':type', $type);
-   $statement->bindValue(':id', $id);
    $statement->execute();
 }
 catch (Exception $ex)

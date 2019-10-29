@@ -85,8 +85,6 @@ try
     <div class="insert_type">
 		<form action="remove_type.php" method="POST">
                 <label for="title">Remove Service Type</label>
-                <input type="text" class="form-control" name="type" placeholder="Type of Service">
-                <br>
                 <input type="text" class="form-control" name="id" placeholder="ID Number">
 				<button type="submit" class="btn btn-primary">Remove</button>
 			</form>

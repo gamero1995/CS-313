@@ -86,6 +86,15 @@ try
                 <input type="hidden" class="form-control" name="id" value="<?php echo $id ?>">
 				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
+        </div>
+        <br>
+        <div class="insert_type">
+		<form action="remove_service.php" method="POST">
+                <label for="title">Remove Service</label>
+                <input type="text" class="form-control" name="service" placeholder="Service Name">
+                <br>
+				<button type="submit" class="btn btn-primary">Remove</button>
+			</form>
 		</div>
     
 </body>

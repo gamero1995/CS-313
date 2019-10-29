@@ -67,9 +67,9 @@ try
         <?php 
         $id = $_GET['typeID'];
 
-        foreach ($db->query('SELECT sevices_name, services_description, services_price FROM services WHERE services_id = ' . $id . '') as $row)
+        foreach ($db->query('SELECT sevices_name, services_description, services_price, services_id FROM services WHERE services_id = ' . $id . '') as $row)
        {
-          echo '<tr><td>' . $row['sevices_name'] . '</td><td>' . $row['services_description'] . '</td><td>' . $row['services_price'] . '</td></tr>';
+          echo '<tr><td>' . $row['sevices_name'] . '</td><td>' . $row['services_description'] . '</td><td>' . $row['services_price'] . '</td><td>' . $row['services_id'] . '</td></tr>';
           
        }
 

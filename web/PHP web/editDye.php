@@ -83,7 +83,7 @@ try
                 <input type="text" class="form-control" name="service_description" placeholder="Service Description">
                 <br>
                 <input type="text" class="form-control" name="service_price" placeholder="Price">
-                <input type="hidden" class="form-control" name="service_price" value="<?php echo $id ?>">
+                <input type="hidden" class="form-control" name="id" value="<?php echo $id ?>">
 				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
 		</div>

@@ -96,7 +96,11 @@ try
                 <br>
 				<button type="submit" class="btn btn-primary">Remove</button>
 			</form>
-		</div>
+    </div>
+    <br>
+    <form>
+  <input class="cancelbtn" type="button" value="Go back!" onclick="history.back()">
+</form>
     
 </body>
 </html>
